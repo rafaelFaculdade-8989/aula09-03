@@ -1,128 +1,192 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notícias Fitness JP - Carlos Rafael</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Notícias Fitness JP</h1>
-    <p>As melhores academias de João Pessoa</p>
+    <a href="#conteudo">Pular para o conteúdo principal</a>
 
-    <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Academias</a></li>
-            <li><a href="#">Avaliações</a></li>
-            <li><a href="#">Dicas Fitness</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-
-<section class="noticias">
-
-<article>
     <header>
-        <h2>Academias modernas crescem em João Pessoa</h2>
-        <p class="meta">Publicado em 09/03/2026</p>
+        <h1>Notícias Fitness JP</h1>
+        <p>As melhores academias de João Pessoa</p>
+
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Academias</a></li>
+                <li><a href="#">Avaliações</a></li>
+                <li><a href="#">Dicas Fitness</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <p>
-        João Pessoa vem registrando crescimento no número de academias modernas,
-        com equipamentos de última geração e ambientes climatizados.
-    </p>
+    <main id="conteudo">
 
-    <p>
-        Academias da cidade estão investindo em novas modalidades
-        como cross training, musculação avançada e treinos funcionais.
-    </p>
+        <section aria-labelledby="titulo-noticias">
+
+            <h2 id="titulo-noticias">Notícias Fitness</h2>
+
+            <article>
+                <header>
+                    <h3>Academias modernas crescem em João Pessoa</h3>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-03-09">09/03/2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    João Pessoa vem registrando crescimento no número de academias modernas,
+                    com equipamentos de última geração e ambientes climatizados.
+                </p>
+
+                <p>
+                    Academias da cidade estão investindo em novas modalidades
+                    como cross training, musculação avançada e treinos funcionais.
+                </p>
+
+                <footer>
+                    <a href="#">Leia mais</a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Top academias da zona leste da cidade</h3>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-03-08">08/03/2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    A região leste de João Pessoa concentra algumas das academias
+                    mais bem avaliadas pelos alunos.
+                </p>
+
+                <p>
+                    Estrutura moderna, personal trainers qualificados
+                    e planos acessíveis são os principais diferenciais.
+                </p>
+
+                <footer>
+                    <a href="#">Leia mais</a>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Treinos funcionais ganham popularidade</h3>
+                    <p>
+                        Publicado em
+                        <time datetime="2026-03-07">07/03/2026</time>
+                    </p>
+                </header>
+
+                <p>
+                    O treinamento funcional está cada vez mais presente nas academias
+                    da capital paraibana.
+                </p>
+
+                <p>
+                    Especialistas apontam que os treinos funcionais ajudam
+                    na melhora da mobilidade e condicionamento físico.
+                </p>
+
+                <footer>
+                    <a href="#">Leia mais</a>
+                </footer>
+            </article>
+
+        </section>
+
+        <aside>
+
+            <section>
+                <h2>Academias populares</h2>
+
+                <ul>
+                    <li>Academia Premium Fitness</li>
+                    <li>Power Gym JP</li>
+                    <li>Strong Body Academia</li>
+                    <li>Fitness Club João Pessoa</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Dica do dia</h2>
+
+                <p>
+                    Treinar pelo menos 3 vezes por semana ajuda
+                    no ganho de força e melhora da saúde.
+                </p>
+            </section>
+
+        </aside>
+
+        <section id="contato">
+
+            <h2>Contato</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Envie sua mensagem</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            required
+                            autocomplete="name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            autocomplete="email">
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            required
+                            ></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar mensagem</button>
+                    </p>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
 
     <footer>
-        <a href="#">Leia mais</a>
+        <p>© 2026 Notícias Fitness JP</p>
+        <p>Portal de notícias sobre academias em João Pessoa</p>
     </footer>
-</article>
-
-
-<article>
-    <header>
-        <h2>Top academias da zona leste da cidade</h2>
-        <p class="meta">Publicado em 08/03/2026</p>
-    </header>
-
-    <p>
-        A região leste de João Pessoa concentra algumas das academias
-        mais bem avaliadas pelos alunos.
-    </p>
-
-    <p>
-        Estrutura moderna, personal trainers qualificados
-        e planos acessíveis são os principais diferenciais.
-    </p>
-
-    <footer>
-        <a href="#">Leia mais</a>
-    </footer>
-</article>
-
-
-<article>
-    <header>
-        <h2>Treinos funcionais ganham popularidade</h2>
-        <p class="meta">Publicado em 07/03/2026</p>
-    </header>
-
-    <p>
-        O treinamento funcional está cada vez mais presente nas academias
-        da capital paraibana.
-    </p>
-
-    <p>
-        Especialistas apontam que os treinos funcionais ajudam
-        na melhora da mobilidade e condicionamento físico.
-    </p>
-
-    <footer>
-        <a href="#">Leia mais</a>
-    </footer>
-</article>
-
-</section>
-
-
-<aside>
-
-<h3>Academias populares</h3>
-
-<ul>
-    <li>Academia Premium Fitness</li>
-    <li>Power Gym JP</li>
-    <li>Strong Body Academia</li>
-    <li>Fitness Club João Pessoa</li>
-</ul>
-
-<h3>Dica do dia</h3>
-
-<p>
-Treinar pelo menos 3 vezes por semana ajuda
-no ganho de força e melhora da saúde.
-</p>
-
-</aside>
-
-</main>
-
-
-<footer>
-<p>© 2026 Notícias Fitness JP</p>
-<p>Portal de notícias sobre academias em João Pessoa</p>
-</footer>
 
 </body>
+
 </html>
