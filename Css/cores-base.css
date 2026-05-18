@@ -1,0 +1,36 @@
+/*
+========================================
+CORES E VALORES BASE DO PROJETO
+========================================
+*/
+
+:root {
+
+    /* CORES */
+    --roxo-principal: #7c3aed;
+    --cinza-claro: #f9fafb;
+    --cinza-medio: #d1d5db;
+    --cinza-texto: #374151;
+    --cinza-escuro: #111827;
+    --branco: #ffffff;
+
+    /* TIPOGRAFIA */
+    --texto-pequeno: 0.875rem;
+    --texto-normal: 1rem;
+    --texto-grande: 1.25rem;
+    --titulo-grande: 2rem;
+
+    /* ESPAÇAMENTOS */
+    --espaco-1: 0.25rem;
+    --espaco-2: 0.5rem;
+    --espaco-3: 0.75rem;
+    --espaco-4: 1rem;
+    --espaco-6: 1.5rem;
+    --espaco-8: 2rem;
+
+    /* BORDAS */
+    --borda-media: 0.5rem;
+
+    /* SOMBRA */
+    --sombra-media: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
