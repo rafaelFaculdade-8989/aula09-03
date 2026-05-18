@@ -1,0 +1,17 @@
+:root {
+    --fundo-site: var(--cinza-claro);
+    --fundo-cartao: var(--branco);
+    --texto-principal: var(--cinza-escuro);
+    --texto-secundario: var(--cinza-texto);
+    --cor-borda: var(--cinza-medio);
+    --cor-destaque: var(--roxo-principal);
+}
+
+[data-theme="dark"] {
+    --fundo-site: var(--cinza-escuro);
+    --fundo-cartao: #1f2937;
+    --texto-principal: var(--cinza-claro);
+    --texto-secundario: var(--cinza-medio);
+    --cor-borda: #374151;
+    --cor-destaque: #a78bfa;
+}

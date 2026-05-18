@@ -1,9 +1,3 @@
-/*
-========================================
-CORES E VALORES BASE DO PROJETO
-========================================
-*/
-
 :root {
 
     /* CORES */
@@ -27,10 +21,6 @@ CORES E VALORES BASE DO PROJETO
     --espaco-4: 1rem;
     --espaco-6: 1.5rem;
     --espaco-8: 2rem;
-
-    /* BORDAS */
     --borda-media: 0.5rem;
-
-    /* SOMBRA */
     --sombra-media: 0 4px 10px rgba(0, 0, 0, 0.08);
 }

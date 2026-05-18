@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fundo-site);
+    color: var(--texto-principal);
+    line-height: 1.6;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin-inline: auto;
+    padding-block: var(--espaco-8);
+}
+
+.topo-site {
+    background: var(--cor-destaque);
+    color: var(--branco);
+    text-align: center;
+    padding: var(--espaco-8);
+}
+
+.subtitulo {
+    font-size: var(--texto-grande);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: var(--espaco-4);
+    list-style: none;
+    padding: 0;
+    margin-top: var(--espaco-4);
+}
+
+.menu a {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cartao {
+    background: var(--fundo-cartao);
+    padding: var(--espaco-6);
+    margin-bottom: var(--espaco-6);
+    border-radius: var(--borda-media);
+    box-shadow: var(--sombra-media);
+}
+
+.titulo-cartao {
+    font-size: var(--texto-grande);
+    color: var(--texto-principal);
+    margin-bottom: var(--espaco-4);
+}
+
+.link-botao {
+    color: var(--cor-destaque);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.barra-lateral {
+    margin-block: var(--espaco-8);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: var(--espaco-3);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--borda-media);
+    background: var(--fundo-cartao);
+    color: var(--texto-principal);
+}
+
+button {
+    background: var(--cor-destaque);
+    color: var(--branco);
+    border: none;
+    padding: var(--espaco-3) var(--espaco-6);
+    border-radius: var(--borda-media);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.rodape-site {
+    text-align: center;
+    padding: var(--espaco-6);
+    background: var(--fundo-cartao);
+    margin-top: var(--espaco-8);
+}
+
+.pular-conteudo {
+    position: absolute;
+    left: -9999px;
+}
+
+.pular-conteudo:focus {
+    left: 10px;
+    top: 10px;
+    background: var(--cor-destaque);
+    color: var(--branco);
+    padding: var(--espaco-3);
+}

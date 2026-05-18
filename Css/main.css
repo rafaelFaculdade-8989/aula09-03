@@ -1,0 +1,13 @@
+@layer base, tema, componentes;
+
+@layer base {
+    @import url("./cores-base.css");
+}
+
+@layer tema {
+    @import url("./tema.css");
+}
+
+@layer componentes {
+    @import url("./componentes.css");
+}
